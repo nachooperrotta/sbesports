@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.barra {
+  height: 75px;
+}
+
+.barra .opciones {
+  padding-right: 15%;
+}
+
+.barra .opciones .menu a {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 23px;
+}
+
+.imagen-fondo img {
+  width: 100%;
+  max-height: 900px;
+}
+
+#main {
+  background-color: #f2f2f2;
+}
+
+#main .contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 6% 0;
+}
+
+#main .contenedor .subtitulo {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #5e0202;
+}
+
+#main .contenedor .tweets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+#main .contenedor .tweets .tweet {
+  width: 300px;
+}
+
+#main .contenedor .evento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .teams img {
+  height: 850%;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,63 @@
+@import "page";
+
+
+.barra{
+    height: 75px;
+
+    .opciones{
+        padding-right: 15%;
+
+        .menu a{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 23px;
+        }
+    }
+    
+}
+
+.imagen-fondo img{
+    width: 100%;
+    max-height: 900px;
+}
+
+#main{
+  background-color: #f2f2f2;
+
+  .contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 6% 0;
+
+    .subtitulo{
+      text-align: center;
+      font-family: 'Bebas Neue', cursive;
+      color: rgb(94, 2, 2);
+    }
+
+    .tweets{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      
+
+      .tweet{
+        width: 300px;
+      } 
+    }
+    .evento{
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .teams img{
+    height: 850%;
+  }
+}
+    
+
+
+

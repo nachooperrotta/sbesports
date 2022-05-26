@@ -58,6 +58,41 @@
   }
 }
 
+.img-calendario{
+  width: 100%;
+}
+
+.img-vlr{
+  width: 100%;
+}  
+  
+#main-vlr{
+   background-color: rgb(17, 17, 17);
+   
+   .tarjetas-vlr{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     justify-content: center;
+   }
+}
+
+.contenedor-pags{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 6% 0;
+
+  .subtitulo-pags{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(94, 2, 2);
+
+  }
+}
+
+
 @media (max-width: 600px){
   
  

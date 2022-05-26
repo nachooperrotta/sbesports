@@ -73,4 +73,42 @@
 #main .teams img {
   height: 850%;
 }
+
+.img-calendario {
+  width: 100%;
+}
+
+.img-vlr {
+  width: 100%;
+}
+
+#main-vlr {
+  background-color: #111111;
+}
+
+#main-vlr .tarjetas-vlr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-pags {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 6% 0;
+}
+
+.contenedor-pags .subtitulo-pags {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #5e0202;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -11,182 +11,212 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark barra">
-        <div class="container-fluid">
-          <button
-          class="navbar-toggler"
-          type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#navbarRightAlignExample"
-          aria-controls="navbarRightAlignExample"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse opciones" id="navbarRightAlignExample">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item menu">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link" href="./nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link" href="./calendario.html">Calendario</a>
-            </li>
-            <li class="nav-item dropdown menu">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Equipos</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item menu" href="#">Valorant</a>
-                </li>
-                <li>
-                  <a class="dropdown-item menu" href="./mortalcombat.html">Mortal Kombat</a>
-                </li>
-                <li>
-                  <a class="dropdown-item menu" href="./contentcreators.html">Creadores de contenido</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item menu" href="#">Proximamente</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item menu">
-              <a class="nav-link disabled">Shop</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark barra" style="background-color: black">
+    <div class="container-fluid">
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarRightAlignExample"
+      aria-controls="navbarRightAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse opciones" id="navbarRightAlignExample">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item menu">
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link" href="./calendario.html">Calendario</a>
+          </li>
+          <li class="nav-item dropdown menu">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Equipos</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item menu active" href="#">Valorant</a>
+              </li>
+              <li>
+                <a class="dropdown-item menu" href="./mortalcombat.html">Mortal Kombat</a>
+              </li>
+              <li>
+                <a class="dropdown-item menu" href="./contentcreators.html">Creadores de contenido</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item menu" href="#">Proximamente</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item menu">
+            <a class="nav-link disabled">Shop</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <div class="img-vlr">
-      <img src="../imagenes/paginas.png" alt="">
     </div>
+  </nav>
+  <div class="bg-image" style="background-image: url('/imagenes/esports.png');height: 50vh;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <h1 class="text-white mb-0" style="font-family: 'Press Start 2P', cursive;">VALORANT</h1>
+      </div>
+    </div>
+  </div>
   <main id="main-vlr">
     <div class="contenedor-pags">
       <div>
-        <h1 class="subtitulo-pags">Valorant team</h1>
         <hr style="color: rgb(94, 2, 2)a; height: 3px;">
       </div>
       <div class="tarjetas-vlr">
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border border-danger shadow-0 text-white mb-3" style="max-width: 540px; background-color: black;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="../imagenes/VLR.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start"/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">xNach06</h5>
+                <h5 class="card-title" style="text-align: center;">xNACH06</h5>
+                <hr>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  22, Argentina <i class="flag flag-argentina"></i>
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <div class="redes-vlr">
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitch.tv/xnach06" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitch"></i></i></a>
+                  </p>
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border border-danger shadow-0 text-white mb-3" style="max-width: 540px; background-color: black;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="../imagenes/VLR.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start"/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">N1D</h5>
+                <h5 class="card-title" style="text-align: center;">N1D</h5>
+                <hr>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  23, Chile <i class="flag flag-chile"></i>
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <div class="redes-vlr">
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitch.tv/xnach06" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitch"></i></i></a>
+                  </p>
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border border-danger shadow-0 text-white mb-3" style="max-width: 540px; background-color: black;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="../imagenes/VLR.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start"/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Flk1nho</h5>
+                <h5 class="card-title" style="text-align: center;">NECRO</h5>
+                <hr>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  16, Chile <i class="flag flag-chile"></i>
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <div class="redes-vlr">
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitch.tv/xnach06" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitch"></i></i></a>
+                  </p>
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border border-danger shadow-0 text-white mb-3" style="max-width: 540px; background-color: black;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="../imagenes/VLR.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start"/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Necro</h5>
+                <h5 class="card-title" style="text-align: center;">FLK1NHO</h5>
+                <hr>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  22, Chile <i class="flag flag-chile"></i>
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <div class="redes-vlr">
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitch.tv/xnach06" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitch"></i></i></a>
+                  </p>
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card border border-danger shadow-0 text-white mb-3" style="max-width: 540px; background-color: black;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="../imagenes/VLR.png" alt="Trendy Pants and Shoes" class="img-fluid rounded-start"/>
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Mahed</h5>
+                <h5 class="card-title" style="text-align: center;">MAHED</h5>
+                <hr>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  18, Chile <i class="flag flag-chile"></i>
                 </p>
-                <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
+                <div class="redes-vlr">
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.twitch.tv/xnach06" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitch"></i></i></a>
+                  </p>
+                  <p class="card-text">
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>      
+      </div> 
     </div>
   </main>
-    <footer class="text-center text-white" style="background-color: #f1f1f1;">
-        <div class="container pt-4">
-          <section class="mb-4">
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/EsportSnowblaze" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.gg/2877jhfBGp" role="button" data-mdb-ripple-color="dark"><i class="fab fa-discord"></i></a>
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark" ><i class="fab fa-instagram"></i></a>
-            <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fas fa-music"></i></a>
-          </section>
-        </div>
-          <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            SB Esports © 2022
-          </div>
-      </footer>
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <div class="container pt-4">
+      <section class="mb-4">
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/EsportSnowblaze" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.gg/2877jhfBGp" role="button" data-mdb-ripple-color="dark"><i class="fab fa-discord"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark" ><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+      </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      SB Esports © 2022
+    </div>
+  </footer>
 
-    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
-    <script src="./js/mijavascript.js"></script>
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.js"></script>
+  <script src="./js/mijavascript.js"></script>
 </body>
 </html>

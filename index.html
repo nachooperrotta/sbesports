@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark barra">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark barra" style="background-color: black">
     <div class="container-fluid">
       <button
       class="navbar-toggler"
@@ -26,8 +27,8 @@
       aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse opciones" id="navbarRightAlignExample">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse opciones" id="navbarRightAlignExample" >
+        <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
           <li class="nav-item menu">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -35,7 +36,7 @@
             <a class="nav-link" href="./paginas/nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item menu">
-            <a class="nav-link" href="./paginas/calendario.html">Calendario</a>
+            <a class="nav-link " href="./paginas/calendario.html">Calendario</a>
           </li>
           <li class="nav-item dropdown menu">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Equipos</a>
@@ -62,13 +63,17 @@
       </div>
     </div>
   </nav>
-  <div class="imagen-fondo">
-    <img src="./imagenes/esports.png" alt="">
+  <div class="bg-image" style="background-image: url('/imagenes/esports.png');height: 100vh;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <h1 class="text-white mb-0" style="font-family: 'Bebas Neue', cursive; font-size: 100px;">SB ESPORTS</h1>
+      </div>
+    </div>
   </div>
   <main id="main">
     <div class="contenedor">
       <div>
-        <h1 class="subtitulo">Noticias</h1>
+        <h1 class="subtitulo animate__animated animate__fadeInLeft animate__delay-3s	3s">Noticias</h1>
         <hr style="color: rgb(94, 2, 2)a; height: 3px;">
       </div>
       <div class="tweets">
@@ -88,20 +93,106 @@
       <br>
       <br>
       <div>
-        <h2 class="subtitulo">Proximos eventos</h2>
+        <h2 class="subtitulo animate__animated animate__fadeInLeft animate__delay-3s	3s">Proximos eventos</h2>
         <hr style="color: rgb(94, 2, 2)a; height: 3px;">
       </div>
-      <div class="evento">       
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-60a56bcc-7137-4cc5-b287-1eedc6830cd5"></div>
+      <div class="evento">
+        <div class="bg-image card shadow-1-strong eventos" style="background-image: url('imagenes/trofeo.png');">
+          <div class="card-body text-black">
+          <h5 class="card-title" style="text-align: center;">Torneo Valorant</h5>
+          <hr>
+          <p class="card-text">
+          $225 USD. ZOTACCUP LATAM.
+          </p>
+          <a href="#!" class="btn btn-outline-dark">Ir al evento</a>
+          </div>
+          <div class="card-footer text-black"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="bg-image card shadow-1-strong eventos" style="background-image: url('imagenes/trofeo.png');">
+          <div class="card-body text-black">
+          <h5 class="card-title" style="text-align: center;">Torneo Valorant</h5>
+          <hr>
+          <p class="card-text">
+          $225 USD. ZOTACCUP LATAM.
+          </p>
+          <a href="#!" class="btn btn-outline-dark">Ir al evento</a>
+          </div>
+          <div class="card-footer text-black"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="bg-image card shadow-1-strong eventos" style="background-image: url('imagenes/trofeo.png');">
+          <div class="card-body text-black">
+          <h5 class="card-title" style="text-align: center;">Torneo Valorant</h5>
+          <hr>
+          <p class="card-text">
+          $225 USD. ZOTACCUP LATAM.
+          </p>
+          <a href="#!" class="btn btn-outline-dark">Ir al evento</a>
+          </div>
+          <div class="card-footer text-black"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="bg-image card shadow-1-strong eventos" style="background-image: url('imagenes/trofeo.png');">
+          <div class="card-body text-black">
+          <h5 class="card-title" style="text-align: center;">Torneo Valorant</h5>
+          <hr>
+          <p class="card-text">
+          $225 USD. ZOTACCUP LATAM.
+          </p>
+          <a href="#!" class="btn btn-outline-dark">Ir al evento</a>
+          </div>
+          <div class="card-footer text-black"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+
+        <!-- <div class="card text-center eventos">
+          <div class="card-header"><strong>Torneo Valorant</strong></div>
+          <div class="card-body">
+            <p class="card-text">$225 USD. ZOTAC CUP</p>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(94, 2, 2);">Ir al evento</a>
+          </div>
+          <div class="card-footer text-muted"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="card text-center eventos">
+          <div class="card-header"><strong>Torneo Valorant</strong></div>
+          <div class="card-body">
+            <p class="card-text">$225 USD. ZOTAC CUP</p>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(94, 2, 2);">Ir al evento</a>
+          </div>
+          <div class="card-footer text-muted"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="card text-center eventos">
+          <div class="card-header"><strong>Torneo Valorant</strong></div>
+          <div class="card-body">
+            <p class="card-text">$225 USD. ZOTAC CUP</p>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(94, 2, 2);">Ir al evento</a>
+          </div>
+          <div class="card-footer text-muted"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div>
+        <div class="card text-center eventos">
+          <div class="card-header"><strong>Torneo Valorant</strong></div>
+          <div class="card-body">
+            <p class="card-text">$225 USD. ZOTAC CUP</p>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" style="background-color: rgb(94, 2, 2);">Ir al evento</a>
+          </div>
+          <div class="card-footer text-muted"><i class="far fa-calendar"></i>   Dom, 16 Junio</div>
+        </div> -->
+        
+        <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-60a56bcc-7137-4cc5-b287-1eedc6830cd5"></div> -->
       </div>
       <div>
-        <h2 class="subtitulo">SB TEAMS</h2>
+        <h2 class="subtitulo animate__animated animate__fadeInLeft animate__delay-3s	3s">SB TEAMS</h2>
         <hr style="color: rgb(94, 2, 2)a; height: 3px;">
       </div>
       <div class="row">
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="bg-image rounded-6 teams">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple rounded-6 teams">
             <img src="./imagenes/VLR.png" class="w-100" alt="Alternative text"/>
             <div class="mask" style=" background: linear-gradient(to bottom,hsla(0, 0%, 0%, 0) 50%,hsla(0, 0%, 0%, 0.5));">
               <div class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center">
@@ -113,8 +204,8 @@
           </div>
         </div>
         
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="bg-image rounded-6 teams">
+        <div class="col-lg-4 mb-4 mb-lg-0 ">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple rounded-6 teams">
             <img src="./imagenes/mk.png" class="w-100" alt="Alternative text"/>
             <div class="mask" style=" background: linear-gradient(to bottom,hsla(0, 0%, 0%, 0) 50%,hsla(0, 0%, 0%, 0.5));">
               <div class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center">
@@ -127,7 +218,7 @@
         </div>
         
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="bg-image rounded-6 teams">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple rounded-6 teams">
             <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/010.jpg" class="w-100" alt="Alternative text"/>
             <div class="mask" style=" background: linear-gradient(to bottom,hsla(0, 0%, 0%, 0) 50%,hsla(0, 0%, 0%, 0.5));">
               <div class="bottom-0 d-flex align-items-end h-100 text-center justify-content-center">
@@ -140,8 +231,6 @@
         </div>
       </div>
     </div>
-    
-    
   </main>
   
   
@@ -152,7 +241,7 @@
         <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/EsportSnowblaze" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
         <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.gg/2877jhfBGp" role="button" data-mdb-ripple-color="dark"><i class="fab fa-discord"></i></a>
         <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark" ><i class="fab fa-instagram"></i></a>
-        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fas fa-music"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/snowblaze.esport/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
       </section>
     </div>
       <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">

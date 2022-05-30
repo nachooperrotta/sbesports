@@ -15,11 +15,28 @@
 
 .barra .opciones {
   padding-right: 15%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding-left: 18%;
 }
 
 .barra .opciones .menu a {
   font-family: 'Bebas Neue', cursive;
   font-size: 23px;
+}
+
+.contenedor-pags {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 6% 0;
+}
+
+.contenedor-pags .subtitulo-pags {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #5e0202;
 }
 
 .imagen-fondo img {
@@ -65,25 +82,30 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 30px;
+  padding-bottom: 10%;
+}
+
+#main .contenedor .evento .eventos {
+  width: 500px;
+  height: 400px;
 }
 
 #main .teams img {
   height: 850%;
 }
 
-.img-calendario {
-  width: 100%;
-}
-
-.img-vlr {
-  width: 100%;
+#main-cal {
+  background-color: #f2f2f2;
 }
 
 #main-vlr {
-  background-color: #111111;
+  background-color: #f2f2f2;
 }
 
 #main-vlr .tarjetas-vlr {
@@ -98,17 +120,13 @@
           justify-content: center;
 }
 
-.contenedor-pags {
-  width: 90%;
-  max-width: 1200px;
-  overflow: hidden;
-  margin: auto;
-  padding: 6% 0;
+#main-vlr .tarjetas-vlr .player-vlr {
+  width: 450px;
 }
 
-.contenedor-pags .subtitulo-pags {
-  text-align: center;
-  font-family: 'Bebas Neue', cursive;
-  color: #5e0202;
+#main-vlr .tarjetas-vlr .redes-vlr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
